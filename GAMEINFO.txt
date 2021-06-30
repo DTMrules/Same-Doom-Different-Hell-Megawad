@@ -1,0 +1,2 @@
+STARTUPTITLE="Same Doom Different Hell"
+STARTUPCOLORS="AAAA00","880000"

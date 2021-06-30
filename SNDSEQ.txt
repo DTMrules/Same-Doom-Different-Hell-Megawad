@@ -1,0 +1,17 @@
+:SlidingDoorOpen
+   play DOOROPN
+   nostopcutoff
+end
+
+:SlidingDoorClose
+   play DOORCLOS
+   nostopcutoff
+end
+
+[SlidingDoor
+ door 0
+ 0  SlidingDoorOpen
+ 1  SlidingDoorClose
+ 2  SlidingDoorOpen
+ 3  SlidingDoorClose
+]

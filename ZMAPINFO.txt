@@ -1,0 +1,95 @@
+clearepisodes
+
+episode E1M1
+{
+Name= "Toxic planet"
+}
+
+episode E2M1
+{
+Name=REDACTED
+}
+
+episode E3M1
+{
+Name=REDACTED
+}
+
+episode E4M1
+{
+Name=REDACTED
+}
+
+
+//Episode 1
+
+map E1M1 "Starport (wip)"
+
+{
+sky1 = "SNM" , 0
+next = "E1M2"
+music = "D_E1M1"
+}
+
+map E1M2 "Power plant (wip)"
+
+{
+sky1 = "SNM" , 0
+next = "E1M3"
+secretnext = "Fun01"
+music = "D_E1M2"
+}
+
+
+map E1M3 "Nukage Processing plant (wip)"
+
+{
+sky1 = "SNM" , 0
+next = "E1M4"
+secretnext = "E1M9"
+music = "D_E1M3"
+}
+
+map E1M4 "Central command Center (wip)"
+
+{
+sky1 = "SNM" , 0
+next = "E1M5"
+secretnext = ""
+music = "D_E1M4"
+}
+
+map E1M5 "Data Center (wip)"
+
+{
+sky1 = "SNM" , 0
+next = "E1M6"
+secretnext = ""
+music = "D_E1M5"
+}
+
+map E1M6 "The Infested Alpha Labs (wip)"
+
+{
+sky1 = "SNM" , 0
+next = "E1M7"
+secretnext = ""
+music = "D_E1M6"
+}
+map E1M9 "military Base (wip)"
+
+{
+sky1 = "SNM" , 0
+next = "E1M4"
+music = "D_E1M9"
+}
+
+
+//Title Map
+
+map titlemap "Same Doom Different Hell" 
+
+{
+sky1= "SNM"
+music = "titlemap"
+}
