@@ -1,1 +1,118 @@
 //Open GL Definitions//
+
+//Human BBQ//
+
+FlickerLight MTORCH_1
+{
+Color 1.0 1.0 0.0
+Size 34
+SecondarySize 38
+Chance 0.3
+Offset 0 30 0
+}
+
+FlickerLight MTORCH_2
+{
+Color 1.0 1.0 0.0
+Size 38
+SecondarySize 42
+Chance 0.3
+Offset 0 30 0
+}
+
+FlickerLight MTORCH_3
+{
+Color 1.0 1.0 0.0
+Size 36
+SecondarySize 40
+Chance 0.3
+Offset 0 30 0
+}
+
+Object HumanBBQ1
+{
+Frame HBCQA { Light MTORCH_1 }
+Frame HBCQB { Light MTORCH_2 }
+Frame HBCQC { Light MTORCH_3 }
+}
+Object HumanBBQ2
+{
+Frame HBDQA { Light MTORCH_1 }
+Frame HBDQB { Light MTORCH_2 }
+Frame HBDQC { Light MTORCH_3 }
+}
+
+object SkullCandles1
+{
+    frame SCAN { light SKULLCANDLES }
+}
+object SkullCandles2
+{
+    frame SCAM { light SKULLCANDLES }
+}
+
+FlickerLight2 FireBlu
+{
+color 7.0 0.2 0.9
+size 90
+secondarySize 99
+interval 0.1
+offset 0 60 0
+}
+
+Object FireBluTorch
+{
+Frame TFBT { Light FireBlu }
+}
+
+
+FlickerLight2 FireBluSmall
+{
+color 7.0 0.2 0.9
+size 72
+secondarySize 81
+interval 0.1
+offset 0 35 0
+}
+
+Object ShortFireBluTorch
+{
+Frame SFBT { Light FireBluSmall }
+}
+
+
+pointlight TLIGHT1
+{
+    color 1.0 1.0 0.8
+    size 56
+    offset 0 72 0
+}
+
+pointlight TLIGHT2
+{
+    color 1.0 1.0 0.8
+    size 56
+    offset 0 44 0
+}
+
+pointlight TLIGHT3
+{
+    color 1.0 1.0 0.8
+    size 56
+    offset 0 50 0
+}
+
+object TLamp1
+{
+    frame LAMTA { light TLIGHT1 }
+}
+
+object TLamp2
+{
+    frame LAMTB { light TLIGHT2 }
+}
+
+object TLamp3
+{
+    frame LAMTC { light TLIGHT3 }
+}

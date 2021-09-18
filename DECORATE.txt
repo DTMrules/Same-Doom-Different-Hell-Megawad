@@ -1,1 +1,906 @@
-//Decorate//
+//Romero Doom Gore Dump
+
+//Human BBQ 001
+Actor HumanBBQ1 1200
+{
+ 
+Radius 20
+Height 88
++SOLID
+States
+{
+Spawn:
+	HBCQ ABC 4 Bright
+	Loop
+}
+}
+
+//Human BBQ 002
+Actor HumanBBQ2 1201
+{
+ 
+Radius 20
+Height 88
++SOLID
+States
+{
+Spawn:
+	HBDQ ABC 4 Bright
+	Loop
+}
+}
+
+//Bloody Skulls
+ACTOR BloodySkulls 1202
+{
+ 
+  Radius 24
+  Height 10
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    BSKL A -1
+    Stop
+  }
+}
+
+//Skull pile with candles 
+ACTOR SkullCandles1 1203
+{
+ 
+  Radius 20
+  Height 48
+  +SOLID
+  States
+  {
+  Spawn:
+    SCAN AB 4 Bright
+    Loop
+  }
+}
+
+//Skull pile with candles 
+ACTOR SkullCandles2 1204
+{
+ 
+  Radius 20
+  Height 48
+  +SOLID
+  States
+  {
+  Spawn:
+    SCAM ABC 4 Bright
+    Loop
+  }
+}
+
+//Hanging guys
+ACTOR Hanging1 1205
+{
+ 
+  Radius 18
+  Height 55
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HANA A -1
+    Stop
+  }
+}
+ACTOR Hanging2 1206
+{
+ 
+  Radius 16
+  Height 88
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HANB A -1
+    Stop
+  }
+}
+ACTOR Hanging3 1207
+{
+ 
+  Radius 16
+  Height 22
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HANC A -1
+    Stop
+  }
+}
+ACTOR Hanging4 1208
+{
+ 
+  Radius 16
+  Height 54
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HAND A -1
+    Stop
+  }
+}
+ACTOR Hanging5 1209
+{
+ 
+  Radius 16
+  Height 57
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HANE A -1
+    Stop
+  }
+}
+ACTOR Hanging6 1210
+{
+ 
+  Radius 16
+  Height 57
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HANF A -1
+    Stop
+  }
+}
+ACTOR Hanging7 1211
+{
+ 
+  Radius 16
+  Height 57
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HANG A -1
+    Stop
+  }
+}
+ACTOR Hanging8 1212
+{
+ 
+  Radius 16
+  Height 54
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HANH A -1
+    Stop
+  }
+}
+ACTOR Hanging9 1213
+{
+ 
+  Radius 16
+  Height 55
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HANI A -1
+    Stop
+  }
+}
+ACTOR Hanging10 1214
+{
+ 
+  Radius 16
+  Height 82
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HANJ A -1
+    Stop
+  }
+}
+ACTOR Hanging11 1215
+{
+ 
+  Radius 16
+  Height 67
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HANK A -1
+    Stop
+  }
+}
+ACTOR Hanging12 1216
+{
+ 
+  Radius 18
+  Height 91
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    HANL A -1
+    Stop
+  }
+}
+
+//Big Pool
+ACTOR BigPool 1217
+{
+  Radius 10
+  Height 40
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    BPOL A -1
+    Stop
+  }
+}
+
+//Skull piles
+ACTOR SkullS1 1219
+{
+  Radius 20
+  Height 48
+  ProjectilePassHeight -16
+  +SOLID
+  States
+  {
+  Spawn:
+    SKUA A -1
+	Stop
+  }
+}
+
+ACTOR Skulls2 1220
+{
+  Radius 20
+  Height 48
+  ProjectilePassHeight -16
+  +SOLID
+  States
+  {
+  Spawn:
+    SKUB A -1
+	Stop
+  }
+}
+
+ACTOR Skulls3 1221
+{
+  Radius 20
+  Height 48
+  ProjectilePassHeight -16
+  +SOLID
+  States
+  {
+  Spawn:
+    SKUC A -1
+	Stop
+  }
+ }
+ACTOR Skulls4 1222
+{
+  Radius 16
+  Height 56
+  ProjectilePassHeight -16
+  +SOLID
+  States
+  {
+  Spawn:
+    SKUD A -1
+    Stop
+  }
+}
+ACTOR Skulls5 1223
+{
+  Radius 16
+  Height 56
+  ProjectilePassHeight -16
+  +SOLID
+  States
+  {
+  Spawn:
+    SKUE A -1
+    Stop
+  }
+}
+ACTOR Skulls6 1224
+{
+  Radius 16
+  Height 56
+  ProjectilePassHeight -16
+  +SOLID
+  States
+  {
+  Spawn:
+    SKUF A -1
+    Stop
+  }
+}
+
+//Spine
+ACTOR Spine 1225
+{
+  Radius 12
+  Height 7
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    SPIN A -1
+    Stop
+  }
+}
+
+//Corpse Pile
+Actor CorpsePile 1226
+{
+Radius 24
+Height 60
++SOLID
+States
+{
+Spawn:
+	PILE A -1
+	Stop
+}
+}
+
+//Arms
+Actor Arm1 1227
+{
+  +FloorClip
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    DARM A -1
+    Stop
+  }
+}
+Actor Arm2 1228
+{
+  +FloorClip
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    ARMA A -1
+    Stop
+  }
+}
+
+//Gibs
+ACTOR Gib1 1229
+{
+  Radius 12
+  Height 12
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    GIBA A -1
+	Stop
+  }
+}
+ACTOR Gib2 1230
+{
+  Radius 10
+  Height 12
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    GIBB A -1
+	Stop
+  }
+}
+ACTOR Gib3 1231
+{
+  Radius 5
+  Height 7
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    GIBC A -1
+	Stop
+  }
+}
+ACTOR Gib4 1232
+{
+  Radius 3
+  Height 5
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    GIBD A -1
+	Stop
+  }
+}
+ACTOR Gib5 1233
+{
+  Radius 12
+  Height 13
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    GIBE A -1
+	Stop
+  }
+}
+
+//Skulls and head
+ACTOR Head1 1234
+{
+  Radius 7
+  Height 12
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    HEDA A -1
+	Stop
+  }
+}
+ACTOR Head2 1235
+{
+  Radius 7
+  Height 12
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    HEDB A -1
+	Stop
+  }
+}
+ACTOR Head3 1236
+{
+  Radius 7
+  Height 12
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    HEDC A -1
+	Stop
+  }
+}
+ACTOR Head4 1237
+{
+  Radius 7
+  Height 12
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    HEDD A -1
+	Stop
+  }
+}
+ACTOR Head5 1238
+{
+  Radius 7
+  Height 12
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    HEDE A -1
+	Stop
+  }
+}
+
+//Dead Player
+ACTOR DeadPlayer1 1239
+{
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    MRNA A -1
+    Stop
+  }
+}
+ACTOR DeadPlayer2 1240
+{
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    MRNB A -1
+    Stop
+  }
+}
+ACTOR DeadPlayer3 1250
+{
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    MRNC A -1
+    Stop
+  }
+}
+
+//Lights
+
+//Fireblue Torch
+Actor ShortFireBluTorch 1251
+{
+Radius 12
+Height 36
++SOLID
+States
+	{
+	Spawn:
+		SFBT ABCD 4 Bright
+		Loop
+	}
+}
+Actor FireBluTorch 1252
+{
+Radius 12
+Height 64
++SOLID
+States
+	{
+	Spawn:
+		TFBT ABCD 4 Bright
+		Loop
+	}
+}
+
+ACTOR TLamp1 12850
+{
+  Radius 16
+  Height 80
+  +SOLID
+  States
+  {
+  Spawn:
+    LAMT A -1 Bright
+    Stop
+  }
+}
+
+ACTOR TLamp2 12851
+{
+  Radius 16
+  Height 60
+  +SOLID
+  States
+  {
+  Spawn:
+    LAMT B -1 Bright
+    Stop
+  }
+}
+
+ACTOR TLamp3 12852
+{
+  Radius 16
+  Height 70
+  +SOLID
+  States
+  {
+  Spawn:
+    LAMT C -1 Bright
+    Stop
+  }
+}
+
+//le Hellish tree variants by yours truly, Bloax.
+
+//Totally ordinary tree (Undamaged)
+
+Actor HellTree 31055 {
+  Radius 19
+  Height 61
+  Mass 5000
+  Scale 0.8
+  +SOLID
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR A -1
+	wait
+  }
+}
+
+//Scorched variants
+
+Actor HellTreeScorch1 : HellTree 31056 { 
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR B -1
+	stop
+  }
+}
+
+Actor HellTreeScorch2 : HellTree 31057 { 
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR C -1
+	stop
+  }
+}
+
+//Burned variants
+
+Actor HellTreeBurn1 : HellTree 31058 { 
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR D -1
+	stop
+  }
+}
+
+Actor HellTreeBurn2 : HellTree 31059 { 
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR E -1
+	stop
+  }
+}
+
+//Damaged (and scorched) variant
+
+Actor HellTreeScorch3 : HellTree 31060 { 
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR F -1
+	stop
+  }
+}
+
+Actor HellTreeBurn3 : HellTree 31061 { //Burned down (top) variant
+  Radius 15
+  Height 46
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR G -1
+	stop
+  }
+}
+
+Actor FleshTree1 : HellTree 31062 { //Blood tree, grown using >90% pure human blood!
+  Radius 32
+  Height 89
+  Scale 1
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR H -1
+	stop
+  }
+}
+
+Actor FleshTree2 : FleshTree1 31063 { //Flesh tree, grown on live humans! (Lots of agony was delivered!)
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR I -1
+	stop
+  }
+}
+
+Actor FleshTree3 : FleshTree1 31063 { //Skin tree, grown on dead waste. (Nice for cleaning the mess!)
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR J -1
+	stop
+  }
+}
+
+actor PhobosRock1 30354
+{ 
+Radius 24
+Height 16
++SOLID
+States
+{
+Spawn:
+ROK1 A -1
+Loop
+}
+}
+
+actor PhobosRock2 30355
+{ 
+Radius 24
+Height 16
++SOLID
+States
+{
+Spawn:
+ROK2 A -1
+Loop
+}
+}
+
+actor PhobosRockSmall 30356
+{ 
+Radius 1
+Height 1
+States
+{
+Spawn:
+ROK3 A -1
+Loop
+}
+}
+
+ACTOR NRock1 16100
+{
+  Radius 16
+  Height 16
+  States
+  {
+  Spawn:
+    NROK A -1
+    Stop
+  }
+}
+
+ACTOR NRock2 16101
+{
+  Radius 16
+  Height 16
+  States
+  {
+  Spawn:
+    NROK B -1
+    Stop
+  }
+}
+
+ACTOR NRock3 16102
+{
+  Radius 16
+  Height 16
+  States
+  {
+  Spawn:
+    NROK C -1
+    Stop
+  }
+}
+
+ACTOR NRock4 16103
+{
+  Radius 16
+  Height 16
+  States
+  {
+  Spawn:
+    NROK D -1
+    Stop
+  }
+}
+
+//weather
+
+
+Actor AshSpawner 10001
+{
+  Radius 1
+  Height 1
+  +NoClip
+  +NoGravity
+  +ClientSideOnly
+  States
+  {
+  Spawn:
+  Active:
+    TNT1 A 0
+    TNT1 A 0 A_Jump(256, 1, 2, 3, 4)
+    TNT1 A 5 A_SpawnItemEx("FloatingAshLight", Random(-Args[0],Args[0]), Random(-Args[0],Args[0]), Random(0,Args[1]), Random(Args[2],Args[3]), 0, Random(-Args[2],Args[2]), Random(-4, 4), 128, Args[4])
+    Loop
+    TNT1 A 5 A_SpawnItemEx("FloatingAshGrey", Random(-Args[0],Args[0]), Random(-Args[0],Args[0]), Random(0,Args[1]), Random(Args[2],Args[3]), 0, Random(-Args[2],Args[2]), Random(-4, 4), 128, Args[4])
+    Loop
+    TNT1 A 5 A_SpawnItemEx("FloatingAshDarkGrey", Random(-Args[0],Args[0]), Random(-Args[0],Args[0]), Random(0,Args[1]), Random(Args[2],Args[3]), 0, Random(-Args[2],Args[2]), Random(-4, 4), 128, Args[4])
+    Loop
+    TNT1 A 5 A_SpawnItemEx("FloatingAshDark", Random(-Args[0],Args[0]), Random(-Args[0],Args[0]), Random(0,Args[1]), Random(Args[2],Args[3]), 0, Random(-Args[2],Args[2]), Random(-4, 4), 128, Args[4])
+    Loop
+  Inactive:
+    TNT1 A 1
+    Loop
+  }
+}
+
+Actor FloatingAshLight
+{
+  +Missile
+  +NoBlockmap
+  +NoGravity
+  Radius 1
+  Height 1
+  RenderStyle Shaded
+  StencilColor "A0 A0 A0"
+  Scale 0.15
+  ReactionTime 250
+  States
+  {
+  Spawn:
+    ASHX A 0
+    ASHX A 0 A_SetScale(FRandom(0.09, 0.12))
+    ASHX A 0 A_Jump(128, "Spawn2")
+  Spawn1:
+    ASHX ABCDEFGH 2 A_CountDown
+    Loop
+  Spawn2:
+    ASHX HGFEDCBA 2 A_CountDown
+    Loop
+  Death:
+    ASHX F 2 A_FadeOut(0.06)
+    Loop
+  }
+}
+
+Actor FloatingAshGrey : FloatingAshLight { StencilColor "80 80 80" }
+Actor FloatingAshDarkGrey : FloatingAshLight { StencilColor "60 60 60" }
+Actor FloatingAshDark : FloatingAshLight { StencilColor "45 45 45" }

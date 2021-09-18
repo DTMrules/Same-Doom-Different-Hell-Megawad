@@ -7,12 +7,12 @@ Name= "Toxic planet"
 
 episode E2M1
 {
-Name=REDACTED
+Name= "Rainy Days on planet Durvge"
 }
 
 episode E3M1
 {
-Name=REDACTED
+Name= "Sorry Hell's Full" 
 }
 
 episode E4M1
@@ -23,7 +23,7 @@ Name=REDACTED
 
 //Episode 1
 
-map E1M1 "Starport (wip)"
+map E1M1 "Starport"
 
 {
 sky1 = "SNM" , 0
@@ -76,6 +76,25 @@ next = "E1M7"
 secretnext = ""
 music = "D_E1M6"
 }
+
+map E1M7 "Mono - Rail Station (wip)"
+
+{
+sky1 = "SNM" , 0
+next = "E1M8"
+secretnext = ""
+music = "D_E1M7"
+}
+
+map E1M8 " The Ruins (wip)"
+
+{
+sky1 = "SNM" , 0
+next = "E2M1"
+secretnext = ""
+music = "D_E1M8"
+}
+
 map E1M9 "military Base (wip)"
 
 {
@@ -83,6 +102,31 @@ sky1 = "SNM" , 0
 next = "E1M4"
 music = "D_E1M9"
 }
+
+//Episode 2
+
+map E2M1 " Terraformer Complex(wip)"
+
+{
+sky1 = "SKY1" , 0
+next = "E2M2"
+music = "D_E2M1"
+}
+
+
+//Episode 3
+
+map E3M1 "Hell's Gate"
+
+{
+sky1 = "TNTSKY3" , 0
+next = "E3m2"
+music = "ABYSS"
+}
+
+
+
+
 
 
 //Title Map
