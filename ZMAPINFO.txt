@@ -50,7 +50,7 @@ secretnext = "E1M9"
 music = "D_E1M3"
 }
 
-map E1M4 "Central command Center (wip)"
+map E1M4 "Communications Center (wip)"
 
 {
 sky1 = "SNM" , 0
