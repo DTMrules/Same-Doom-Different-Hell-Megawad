@@ -1,0 +1,1 @@
+texture Dig_1 range Dig_2 tics 4
