@@ -108,7 +108,7 @@ music = "D_E1M9"
 map E2M1 " Terraformer Complex(wip)"
 
 {
-sky1 = "SKY1" , 0
+sky1 = "RSKY1" , 0
 next = "E2M2"
 music = "D_E2M1"
 }

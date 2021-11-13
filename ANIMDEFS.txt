@@ -1,1 +1,75 @@
+// my textures
+
 texture Dig_1 range Dig_2 tics 4
+
+//other textures
+texture NUKER1 range NUKER4 tics 4
+texture FWATER1 range FWATER4 tics 4
+texture ACOMP_1 range ACOMP_9 tics 4
+
+//cage textures 
+
+texture CGCANI00
+    allowdecals
+    pic CGCANI00 tics 1.5
+    pic CGCANI01 tics 1.5
+    pic CGCANI02 tics 1.5
+    pic CGCANI03 tics 1.5
+    pic CGCANI04 tics 1.5
+    pic CGCANI05 tics 1.5
+    pic CGCANI06 tics 1.5
+    pic CGCANI07 tics 1.5
+    
+switch CGSWC00A on sound Switch1 pic CGSWC00B tics 0
+switch CGSWC00B off sound Switch2 pic CGSWC00A tics 0
+
+switch CGSWC01A on sound Switch1 pic CGSWC01B tics 0
+switch CGSWC01B off sound Switch2 pic CGSWC01A tics 0
+
+switch CGSWC02A on sound Switch1 pic CGSWC02B tics 0
+switch CGSWC02B off sound Switch2 pic CGSWC02A tics 0
+
+switch CGSWC03A on sound Switch1 pic CGSWC03B tics 0
+switch CGSWC03B off sound Switch2 pic CGSWC03A tics 0
+
+//cage textures 2
+
+switch C2SWC01A on sound Switch1 pic C2SWC01B tics 0
+switch C2SWC01B off sound Switch2 pic C2SWC01A tics 0
+
+switch C2SWC02A on sound Switch1 pic C2SWC02B tics 0
+switch C2SWC02B off sound Switch2 pic C2SWC02A tics 0
+
+switch C2SWC03A on sound Switch1 pic C2SWC03B tics 0
+switch C2SWC03B off sound Switch2 pic C2SWC03A tics 0
+
+switch C2SWC04A on sound Switch1 pic C2SWC04B tics 0
+switch C2SWC04B off sound Switch2 pic C2SWC04A tics 0
+
+switch C2SWC05A on sound Switch1 pic C2SWC05B tics 0
+switch C2SWC05B off sound Switch2 pic C2SWC05A tics 0
+
+// Doompotporrri
+
+switch SW1MET5 on sound Switch1 pic SW_1_DN tics 0
+switch SW2MET5 off sound Switch2 pic SW_1_UP tics 0
+
+switch SW1SLIM on sound Switch1 pic SW_1_DN tics 0
+switch SW2SLIM off sound Switch2 pic SW_1_UP tics 0
+
+//mars3d textures
+
+Switch SW1-MET On Pic SW2-MET Tics 0
+Switch SW2-MET Off Pic SW1-MET Tics 0
+Switch SW1-ROCK On Pic SW2-ROCK Tics 0
+Switch SW2-ROCK Off Pic SW1-ROCK Tics 0
+Switch SW1-WAL On Pic SW2-WAL Tics 0
+Switch SW2-WAL Off Pic SW1-WAL Tics 0
+Switch SW1-COM On Pic SW2-COM Tics 0
+Switch SW2-COM Off Pic SW1-COM Tics 0
+Switch SW1-KEY On Pic SW2-KEY Tics 0
+Switch SW2-KEY Off Pic SW1-KEY Tics 0
+
+Texture ST-FONT1 Range ST-FONT3 Tics 8 AllowDecals
+Flat WATR-01 Range WATR-08 Tics 4
+Flat NUK-01 Range NUK-08 Tics 4
