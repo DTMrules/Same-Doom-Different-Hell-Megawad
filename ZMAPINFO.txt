@@ -20,9 +20,9 @@ episode E4M1
 Name=REDACTED
 }
 
-
+////////////////////////////
 //Episode 1
-
+////////////////////////////
 map E1M1 "Starport"
 
 {
@@ -103,9 +103,10 @@ next = "E1M4"
 music = "D_E1M9"
 }
 
+///////////////////////////
 //Episode 2
-
-map E2M1 " Terraformer Complex(wip)"
+///////////////////////////
+map E2M1 "Landing Point Outpost(wip)"
 
 {
 sky1 = "RSKY1" , 0
@@ -113,23 +114,38 @@ next = "E2M2"
 music = "D_E2M1"
 }
 
+map E2M2 "Terraformer Complex(wip)"
 
+{
+sky1 = "RSKY1" , 0
+next = "E2M3"
+music = "D_E2M2"
+}
+
+//////////////////////////
 //Episode 3
-
+//////////////////////////
 map E3M1 "Hell's Gate"
 
 {
-sky1 = "TNTSKY3" , 0
-next = "E3m2"
+sky1 = "PLUTSKY2" , 0.09
+next = "E3M2"
 music = "ABYSS"
+}
+
+map E3M2 "Shrine Of Unholy Souls"
+
+{
+sky1 = "PLUTSKY2" , 0.09
+next = "E3M3"
+music = "D_E2M3"
 }
 
 
 
-
-
-
+//////////////////////////
 //Title Map
+//////////////////////////
 
 map titlemap "Same Doom Different Hell" 
 
