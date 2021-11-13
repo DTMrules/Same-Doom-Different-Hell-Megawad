@@ -125,7 +125,7 @@ music = "D_E2M2"
 //////////////////////////
 //Episode 3
 //////////////////////////
-map E3M1 "Hell's Gate"
+map E3M1 "Hell's Gate(wip)"
 
 {
 sky1 = "PLUTSKY2" , 0.09
@@ -133,7 +133,7 @@ next = "E3M2"
 music = "ABYSS"
 }
 
-map E3M2 "Shrine Of Unholy Souls"
+map E3M2 "Shrine Of Unholy Souls(wip)"
 
 {
 sky1 = "PLUTSKY2" , 0.09
