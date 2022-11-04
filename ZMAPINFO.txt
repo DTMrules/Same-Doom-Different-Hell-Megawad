@@ -28,7 +28,7 @@ map E1M1 "Starport"
 {
 sky1 = "SNM" , 0
 next = "E1M2"
-music = "D_E1M1"
+music = "ROTT_011"
 }
 
 map E1M2 "Power plant (wip)"
