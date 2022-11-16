@@ -106,7 +106,7 @@ music = "D_E1M9"
 ///////////////////////////
 //Episode 2
 ///////////////////////////
-map E2M1 "Landing Point Outpost(wip)"
+map E2M1 "Hangar 21"
 
 {
 sky1 = "RSKY1" , 0
@@ -114,7 +114,7 @@ next = "E2M2"
 music = "D_E2M1"
 }
 
-map E2M2 "Terraformer Complex(wip)"
+map E2M2 "Logistics Facility"
 
 {
 sky1 = "RSKY1" , 0
