@@ -128,7 +128,7 @@ music = "D_E2M2"
 map E3M1 "Hell's Gate"
 
 {
-sky1 = "PLUTSKY2" , 0.09
+sky1 = "RSKY2" , 0.09
 next = "E3M2"
 music = "ABYSS"
 }
@@ -136,14 +136,14 @@ music = "ABYSS"
 map E3M2 "Shrine Of Unholy Souls"
 
 {
-sky1 = "PLUTSKY2" , 0.09
+sky1 = "RSKY2" , 0.09
 next = "E3M3"
 music = "D_E2M3"
 }
 
 map E3M3 "Phlegethon"
 {
-sky1 = "PLUTSKY2", 0.00
+sky1 = "RSKY5", 0.00
 next = "E3M4
 music = "D_E2M3"
 
