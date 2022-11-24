@@ -144,7 +144,7 @@ music = "D_E2M3"
 map E3M3 "Phlegethon"
 {
 sky1 = "RSKY5", 0.00
-next = "E3M4
+next = "E3M4"
 music = "D_E2M3"
 
 //////////////////////////
