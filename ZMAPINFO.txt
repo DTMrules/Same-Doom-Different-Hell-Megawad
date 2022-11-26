@@ -26,7 +26,7 @@ Name=REDACTED
 map E1M1 "Starport"
 
 {
-sky1 = "SKY1" , 0
+sky1 = "RSKY1" , 0
 next = "E1M2"
 music = "ROTT_011"
 }
@@ -34,7 +34,7 @@ music = "ROTT_011"
 map E1M2 "Power plant (wip)"
 
 {
-sky1 = "SKY1" , 0
+sky1 = "RSKY1" , 0
 next = "E1M3"
 secretnext = "Fun01"
 music = "D_E1M2"
@@ -44,7 +44,7 @@ music = "D_E1M2"
 map E1M3 "Nukage Processing plant (wip)"
 
 {
-sky1 = "SNM" , 0
+sky1 = "RSKY1" , 0
 next = "E1M4"
 secretnext = "E1M9"
 music = "D_E1M3"
@@ -53,7 +53,7 @@ music = "D_E1M3"
 map E1M4 "Communications Center (wip)"
 
 {
-sky1 = "SKY1" , 0
+sky1 = "RSKY1" , 0
 next = "E1M5"
 secretnext = ""
 music = "D_E1M4"
@@ -62,7 +62,7 @@ music = "D_E1M4"
 map E1M5 "Data Center (wip)"
 
 {
-sky1 = "SKY1" , 0
+sky1 = "RSKY1" , 0
 next = "E1M6"
 secretnext = ""
 music = "D_E1M5"
@@ -71,7 +71,7 @@ music = "D_E1M5"
 map E1M6 "The Infested Alpha Labs (wip)"
 
 {
-sky1 = "SKY1" , 0
+sky1 = "RSKY1" , 0
 next = "E1M7"
 secretnext = ""
 music = "D_E1M6"
@@ -80,7 +80,7 @@ music = "D_E1M6"
 map E1M7 "Mono - Rail Station (wip)"
 
 {
-sky1 = "SKY1" , 0
+sky1 = "RSKY1" , 0
 next = "E1M8"
 secretnext = ""
 music = "D_E1M7"
@@ -89,7 +89,7 @@ music = "D_E1M7"
 map E1M8 " The Ruins (wip)"
 
 {
-sky1 = "SKY1" , 0
+sky1 = "RSKY1" , 0
 next = "E2M1"
 secretnext = ""
 music = "D_E1M8"
@@ -98,7 +98,7 @@ music = "D_E1M8"
 map E1M9 "military Base (wip)"
 
 {
-sky1 = "SKY1" , 0
+sky1 = "RSKY1" , 0
 next = "E1M4"
 music = "D_E1M9"
 }
@@ -154,6 +154,6 @@ music = "D_E2M3"
 map titlemap "Same Doom Different Hell" 
 
 {
-sky1= "SNM"
+sky1= "RSKY1"
 music = "titlemap"
 }

@@ -3,7 +3,7 @@
 texture Dig_1 range Dig_2 tics 4
 
 //other textures
-texture NUKER1 range NUKER4 tics 4
+//texture NUKER1 range NUKER4 tics 4
 texture FWATER1 range FWATER4 tics 4
 texture ACOMP_1 range ACOMP_9 tics 4
 
